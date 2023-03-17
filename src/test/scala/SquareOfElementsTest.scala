@@ -20,7 +20,7 @@ class SquareOfElementsTest extends AnyFlatSpec with Matchers{
   catch
   {
     case error: Exception =>
-      println("Error while calculating factorial of a number " + error.getMessage)
+      println("Error while calculating square  " + error.getMessage)
 
   }
 }
